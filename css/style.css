@@ -4,6 +4,14 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ *,
+*::before,
+*::after {
+    /* animation: none !important; */
+    /* transition: none !important; */
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4142,8 +4150,8 @@ input[type="button"].btn-block {
   text-align: center;
   white-space: nowrap;
   background-color: #78d5ef;
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
+  /* -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease; */
   transition: width 0.6s ease; }
   @media screen and (prefers-reduced-motion: reduce) {
     .progress-bar {
